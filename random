@@ -1,0 +1,15 @@
+import random
+
+numero azar = random.randint(1, 100)
+print(numero_azar)
+class_azar:
+    def __init__(self, min, max):
+        self.min = min
+        self.max = max
+        self.numero_azar = random.randint(self.min, self.max)
+    def mostrar numero(self):
+        print(self.numero_azar)
+
+instancia = class_azar(1, 100)
+instancia.mostrar_numero()
+   

@@ -1,0 +1,23 @@
+class clase:
+    def __init__(self, materia,grado,divison,profesor):
+        self.materia=materia
+        self.grado=grado
+        self.divison=divison
+        self.alumnos=[]
+        self.profesor=profesor
+    class persona:
+        def __init__(self,nombre,apellido,edad):
+            self.nombre=nombre
+            self.apellido=apellido
+            self.edad=edad
+    class profesor(persona):
+        def __init__(self,nombre,apellido,edad,materia):
+            super().__init__(nombre,apellido,edad)
+            self.materia=materia
+    class alumno(persona):
+        def __init__(self,nombre,apellido,edad,legajo):
+            super().__init__(nombre,apellido,edad)
+            self.legajo=legajo
+            gabriel=profesor("gabriel")
+tic5to1ra = clase(tic5to1ra,5,"A",gabriel)
+    
